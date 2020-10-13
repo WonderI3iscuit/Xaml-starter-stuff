@@ -1,0 +1,62 @@
+﻿<Window x:Class="SekolWpfWalkthrogh.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SekolWpfWalkthrogh"
+        mc:Ignorable="d"
+        Title="WPF Intro" Height="500" Width="500">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="the-real-real-pfp.jpg"/>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="1" Margin="0,30,0,10" >enter your name</TextBlock>
+
+        <Button x:Name="SubmitButton" Content="Submit" HorizontalAlignment="Left" Margin="13,11,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Height="73" Click="onClick"/>
+
+        <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="0,30,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Your name is:" VerticalAlignment="Top" Height="54" Width="84"/>
+
+        <TextBox x:Name="yourName" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="79"/>
+
+        <TextBlock x:Name="printed_Response" Grid.Column="4" HorizontalAlignment="Left" Height="55" Margin="10,29,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+
+        <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="14,11,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Height="73" Click="onExit" Grid.Column="1"/>
+
+        <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Height="73" Click="onExit" Grid.Column="2"/>
+        <TextBlock Grid.Row="2" Margin="0,10,0,29" Text="Enter Number one" />
+        <TextBlock Grid.Row="3" Margin="0,10,0,30" Text="Enter Number two" />
+        <TextBox x:Name="yourName_Copy" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="79"/>
+
+        <TextBox x:Name="numberOne" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,27,0,0" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="79"/>
+
+        <TextBox x:Name="numberTwo" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="14,25,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="79"/>
+
+        <TextBlock Grid.Row="2" Margin="0,10,0,29" Text="Enter Number one" />
+
+        <TextBlock Grid.Row="2" Margin="0,14,1,25" Text="answer:" Grid.Column="3" />
+
+        <TextBlock x:Name="mathAnswer" Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="19,14,0,0" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="79"/>
+
+        <TextBlock Margin="14,30,63,10" Grid.ColumnSpan="4" Grid.Column="1" ><Run Text="Welcome to a sample Xaml Application. Enjoy!"/></TextBlock>
+
+
+    </Grid>
+</Window>

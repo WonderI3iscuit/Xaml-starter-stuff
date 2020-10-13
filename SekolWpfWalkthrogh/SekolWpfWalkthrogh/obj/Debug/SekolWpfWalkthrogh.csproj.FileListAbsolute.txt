@@ -1,0 +1,15 @@
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\bin\Debug\SekolWpfWalkthrogh.exe.config
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\bin\Debug\SekolWpfWalkthrogh.exe
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\bin\Debug\SekolWpfWalkthrogh.pdb
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh.csprojAssemblyReference.cache
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\MainWindow.g.cs
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\App.g.cs
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh_MarkupCompile.cache
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh_MarkupCompile.lref
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\MainWindow.baml
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh.g.resources
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh.Properties.Resources.resources
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh.csproj.GenerateResource.cache
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh.csproj.CoreCompileInputs.cache
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh.exe
+C:\Users\mcelhinny_benjamin\source\repos\SekolWpfWalkthrogh\SekolWpfWalkthrogh\obj\Debug\SekolWpfWalkthrogh.pdb
